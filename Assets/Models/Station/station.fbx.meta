@@ -1,0 +1,998 @@
+fileFormatVersion: 2
+guid: 24662db6b44898f459bd84036a1d88c4
+timeCreated: 1481196255
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Box004
+    100004: Box005
+    100006: Box006
+    100008: Box007
+    100010: Box008
+    100012: Box009
+    100014: Box010
+    100016: Box011
+    100018: Box012
+    100020: Box013
+    100022: Box014
+    100024: Box015
+    100026: Box016
+    100028: Box017
+    100030: Box018
+    100032: Box019
+    100034: Camera
+    100036: Camera.001
+    100038: Capsule001
+    100040: Capsule003
+    100042: Cube
+    100044: Cube.001
+    100046: Cylinder001
+    100048: Cylinder002
+    100050: Lamp
+    100052: Lamp.001
+    100054: Line001
+    100056: Line002
+    100058: Line003
+    100060: Line004
+    100062: Line005
+    100064: Line006
+    100066: Line007
+    100068: Line008
+    100070: Line009.001
+    100072: Line010
+    100074: Line011
+    100076: Line012
+    100078: Line013
+    100080: Line014
+    100082: Line015
+    100084: Line016
+    100086: Object022
+    100088: Object030
+    100090: Object031
+    100092: Object032
+    100094: Object033
+    100096: Object034
+    100098: Object035
+    100100: Object036
+    100102: Object037
+    100104: Object038
+    100106: Object039
+    100108: Object040
+    100110: Object041
+    100112: Object043
+    100114: Object044
+    100116: Object045
+    100118: Object046
+    100120: Object047
+    100122: Object048
+    100124: Object049
+    100126: Object050
+    100128: Object051
+    100130: Object052
+    100132: Object053
+    100134: Object054
+    100136: Object055
+    100138: Object056
+    100140: Object057
+    100142: Object058
+    100144: Object059
+    100146: Object060
+    100148: Object061
+    100150: Object062
+    100152: Object063
+    100154: Object064
+    100156: Object065
+    100158: Object066
+    100160: Object067
+    100162: Object068
+    100164: Object069
+    100166: Object070
+    100168: Object071
+    100170: Object072
+    100172: Object073
+    100174: Object074
+    100176: Object075
+    100178: Object076
+    100180: Object077
+    100182: Object078
+    100184: Rectangle001
+    100186: Rectangle002
+    100188: Rectangle003
+    100190: Rectangle004
+    100192: Rectangle005
+    100194: Rectangle006
+    100196: Rectangle007
+    100198: Rectangle008
+    100200: Rectangle009
+    100202: Rectangle010
+    100204: Rectangle011
+    100206: Shape001
+    100208: Shape001_MeshPart0
+    100210: Shape001_MeshPart1
+    100212: Shape005
+    100214: Shape005_MeshPart0
+    100216: Shape005_MeshPart1
+    100218: Shape005_MeshPart2
+    100220: Shape008
+    100222: Shape012
+    100224: Shape012_MeshPart0
+    100226: Shape012_MeshPart1
+    100228: Shape013
+    100230: Shape013_MeshPart0
+    100232: Shape013_MeshPart1
+    100234: Shape013_MeshPart2
+    100236: Shape014
+    100238: Shape015
+    100240: //RootNode
+    100242: VRayCam001
+    100244: VRayCam001.Target
+    100246: VRayCam002
+    100248: VRayCam002.Target
+    100250: VRayCam003
+    100252: VRayCam003.Target
+    100254: VRayCam004
+    100256: VRayCam004.Target
+    100258: VRayCam005
+    100260: VRayCam005.Target
+    100262: VRaySun001
+    100264: VRaySun001.Target
+    400000: Box002
+    400002: Box004
+    400004: Box005
+    400006: Box006
+    400008: Box007
+    400010: Box008
+    400012: Box009
+    400014: Box010
+    400016: Box011
+    400018: Box012
+    400020: Box013
+    400022: Box014
+    400024: Box015
+    400026: Box016
+    400028: Box017
+    400030: Box018
+    400032: Box019
+    400034: Camera
+    400036: Camera.001
+    400038: Capsule001
+    400040: Capsule003
+    400042: Cube
+    400044: Cube.001
+    400046: Cylinder001
+    400048: Cylinder002
+    400050: Lamp
+    400052: Lamp.001
+    400054: Line001
+    400056: Line002
+    400058: Line003
+    400060: Line004
+    400062: Line005
+    400064: Line006
+    400066: Line007
+    400068: Line008
+    400070: Line009.001
+    400072: Line010
+    400074: Line011
+    400076: Line012
+    400078: Line013
+    400080: Line014
+    400082: Line015
+    400084: Line016
+    400086: Object022
+    400088: Object030
+    400090: Object031
+    400092: Object032
+    400094: Object033
+    400096: Object034
+    400098: Object035
+    400100: Object036
+    400102: Object037
+    400104: Object038
+    400106: Object039
+    400108: Object040
+    400110: Object041
+    400112: Object043
+    400114: Object044
+    400116: Object045
+    400118: Object046
+    400120: Object047
+    400122: Object048
+    400124: Object049
+    400126: Object050
+    400128: Object051
+    400130: Object052
+    400132: Object053
+    400134: Object054
+    400136: Object055
+    400138: Object056
+    400140: Object057
+    400142: Object058
+    400144: Object059
+    400146: Object060
+    400148: Object061
+    400150: Object062
+    400152: Object063
+    400154: Object064
+    400156: Object065
+    400158: Object066
+    400160: Object067
+    400162: Object068
+    400164: Object069
+    400166: Object070
+    400168: Object071
+    400170: Object072
+    400172: Object073
+    400174: Object074
+    400176: Object075
+    400178: Object076
+    400180: Object077
+    400182: Object078
+    400184: Rectangle001
+    400186: Rectangle002
+    400188: Rectangle003
+    400190: Rectangle004
+    400192: Rectangle005
+    400194: Rectangle006
+    400196: Rectangle007
+    400198: Rectangle008
+    400200: Rectangle009
+    400202: Rectangle010
+    400204: Rectangle011
+    400206: Shape001
+    400208: Shape001_MeshPart0
+    400210: Shape001_MeshPart1
+    400212: Shape005
+    400214: Shape005_MeshPart0
+    400216: Shape005_MeshPart1
+    400218: Shape005_MeshPart2
+    400220: Shape008
+    400222: Shape012
+    400224: Shape012_MeshPart0
+    400226: Shape012_MeshPart1
+    400228: Shape013
+    400230: Shape013_MeshPart0
+    400232: Shape013_MeshPart1
+    400234: Shape013_MeshPart2
+    400236: Shape014
+    400238: Shape015
+    400240: //RootNode
+    400242: VRayCam001
+    400244: VRayCam001.Target
+    400246: VRayCam002
+    400248: VRayCam002.Target
+    400250: VRayCam003
+    400252: VRayCam003.Target
+    400254: VRayCam004
+    400256: VRayCam004.Target
+    400258: VRayCam005
+    400260: VRayCam005.Target
+    400262: VRaySun001
+    400264: VRaySun001.Target
+    2300000: Box002
+    2300002: Box004
+    2300004: Box005
+    2300006: Box006
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Box011
+    2300018: Box012
+    2300020: Box013
+    2300022: Box014
+    2300024: Box015
+    2300026: Box016
+    2300028: Box017
+    2300030: Box018
+    2300032: Box019
+    2300034: Capsule001
+    2300036: Capsule003
+    2300038: Cube
+    2300040: Cube.001
+    2300042: Cylinder001
+    2300044: Cylinder002
+    2300046: Line002
+    2300048: Line003
+    2300050: Line004
+    2300052: Line005
+    2300054: Line006
+    2300056: Line007
+    2300058: Line008
+    2300060: Line009.001
+    2300062: Line010
+    2300064: Line011
+    2300066: Line012
+    2300068: Line013
+    2300070: Line014
+    2300072: Line015
+    2300074: Line016
+    2300076: Object022
+    2300078: Object030
+    2300080: Object031
+    2300082: Object032
+    2300084: Object033
+    2300086: Object034
+    2300088: Object035
+    2300090: Object036
+    2300092: Object037
+    2300094: Object038
+    2300096: Object039
+    2300098: Object040
+    2300100: Object041
+    2300102: Object043
+    2300104: Object044
+    2300106: Object045
+    2300108: Object046
+    2300110: Object047
+    2300112: Object048
+    2300114: Object049
+    2300116: Object050
+    2300118: Object051
+    2300120: Object052
+    2300122: Object053
+    2300124: Object054
+    2300126: Object055
+    2300128: Object056
+    2300130: Object057
+    2300132: Object058
+    2300134: Object059
+    2300136: Object060
+    2300138: Object061
+    2300140: Object062
+    2300142: Object063
+    2300144: Object064
+    2300146: Object065
+    2300148: Object066
+    2300150: Object067
+    2300152: Object068
+    2300154: Object069
+    2300156: Object070
+    2300158: Object071
+    2300160: Object072
+    2300162: Object073
+    2300164: Object074
+    2300166: Object075
+    2300168: Object076
+    2300170: Object077
+    2300172: Object078
+    2300174: Rectangle001
+    2300176: Rectangle002
+    2300178: Rectangle003
+    2300180: Rectangle004
+    2300182: Rectangle005
+    2300184: Rectangle006
+    2300186: Rectangle007
+    2300188: Rectangle008
+    2300190: Rectangle009
+    2300192: Rectangle010
+    2300194: Rectangle011
+    2300196: Shape001_MeshPart0
+    2300198: Shape001_MeshPart1
+    2300200: Shape005_MeshPart0
+    2300202: Shape005_MeshPart1
+    2300204: Shape005_MeshPart2
+    2300206: Shape008
+    2300208: Shape012_MeshPart0
+    2300210: Shape012_MeshPart1
+    2300212: Shape013_MeshPart0
+    2300214: Shape013_MeshPart1
+    2300216: Shape013_MeshPart2
+    2300218: Shape014
+    2300220: Shape015
+    3300000: Box002
+    3300002: Box004
+    3300004: Box005
+    3300006: Box006
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Box011
+    3300018: Box012
+    3300020: Box013
+    3300022: Box014
+    3300024: Box015
+    3300026: Box016
+    3300028: Box017
+    3300030: Box018
+    3300032: Box019
+    3300034: Capsule001
+    3300036: Capsule003
+    3300038: Cube
+    3300040: Cube.001
+    3300042: Cylinder001
+    3300044: Cylinder002
+    3300046: Line002
+    3300048: Line003
+    3300050: Line004
+    3300052: Line005
+    3300054: Line006
+    3300056: Line007
+    3300058: Line008
+    3300060: Line009.001
+    3300062: Line010
+    3300064: Line011
+    3300066: Line012
+    3300068: Line013
+    3300070: Line014
+    3300072: Line015
+    3300074: Line016
+    3300076: Object022
+    3300078: Object030
+    3300080: Object031
+    3300082: Object032
+    3300084: Object033
+    3300086: Object034
+    3300088: Object035
+    3300090: Object036
+    3300092: Object037
+    3300094: Object038
+    3300096: Object039
+    3300098: Object040
+    3300100: Object041
+    3300102: Object043
+    3300104: Object044
+    3300106: Object045
+    3300108: Object046
+    3300110: Object047
+    3300112: Object048
+    3300114: Object049
+    3300116: Object050
+    3300118: Object051
+    3300120: Object052
+    3300122: Object053
+    3300124: Object054
+    3300126: Object055
+    3300128: Object056
+    3300130: Object057
+    3300132: Object058
+    3300134: Object059
+    3300136: Object060
+    3300138: Object061
+    3300140: Object062
+    3300142: Object063
+    3300144: Object064
+    3300146: Object065
+    3300148: Object066
+    3300150: Object067
+    3300152: Object068
+    3300154: Object069
+    3300156: Object070
+    3300158: Object071
+    3300160: Object072
+    3300162: Object073
+    3300164: Object074
+    3300166: Object075
+    3300168: Object076
+    3300170: Object077
+    3300172: Object078
+    3300174: Rectangle001
+    3300176: Rectangle002
+    3300178: Rectangle003
+    3300180: Rectangle004
+    3300182: Rectangle005
+    3300184: Rectangle006
+    3300186: Rectangle007
+    3300188: Rectangle008
+    3300190: Rectangle009
+    3300192: Rectangle010
+    3300194: Rectangle011
+    3300196: Shape001_MeshPart0
+    3300198: Shape001_MeshPart1
+    3300200: Shape005_MeshPart0
+    3300202: Shape005_MeshPart1
+    3300204: Shape005_MeshPart2
+    3300206: Shape008
+    3300208: Shape012_MeshPart0
+    3300210: Shape012_MeshPart1
+    3300212: Shape013_MeshPart0
+    3300214: Shape013_MeshPart1
+    3300216: Shape013_MeshPart2
+    3300218: Shape014
+    3300220: Shape015
+    4300000: Cube.001
+    4300002: Capsule001
+    4300004: Box002
+    4300006: Shape001_MeshPart0
+    4300008: Shape001_MeshPart1
+    4300010: Object022
+    4300012: Rectangle001
+    4300014: Shape005_MeshPart0
+    4300016: Shape005_MeshPart1
+    4300018: Shape005_MeshPart2
+    4300020: Shape008
+    4300022: Rectangle002
+    4300024: Box004
+    4300026: Box005
+    4300028: Box006
+    4300030: Box007
+    4300032: Box008
+    4300034: Box009
+    4300036: Line002
+    4300038: Line003
+    4300040: Box010
+    4300042: Box011
+    4300044: Line004
+    4300046: Line005
+    4300048: Line006
+    4300050: Line007
+    4300052: Box012
+    4300054: Box013
+    4300056: Line008
+    4300058: Capsule003
+    4300060: Shape012_MeshPart0
+    4300062: Shape012_MeshPart1
+    4300064: Object030
+    4300066: Box014
+    4300068: Rectangle003
+    4300070: Box015
+    4300072: Rectangle004
+    4300074: Box016
+    4300076: Rectangle005
+    4300078: Box017
+    4300080: Object031
+    4300082: Shape013_MeshPart0
+    4300084: Shape013_MeshPart1
+    4300086: Shape013_MeshPart2
+    4300088: Box018
+    4300090: Rectangle006
+    4300092: Box019
+    4300094: Rectangle007
+    4300096: Cylinder001
+    4300098: Cylinder002
+    4300100: Rectangle008
+    4300102: Line010
+    4300104: Line011
+    4300106: Line012
+    4300108: Line013
+    4300110: Object032
+    4300112: Object033
+    4300114: Object034
+    4300116: Object035
+    4300118: Object036
+    4300120: Object037
+    4300122: Object038
+    4300124: Object039
+    4300126: Object040
+    4300128: Object041
+    4300130: Object043
+    4300132: Object044
+    4300134: Object045
+    4300136: Object046
+    4300138: Object047
+    4300140: Object048
+    4300142: Object049
+    4300144: Object050
+    4300146: Object051
+    4300148: Object052
+    4300150: Object053
+    4300152: Object054
+    4300154: Object055
+    4300156: Object056
+    4300158: Object057
+    4300160: Object058
+    4300162: Object059
+    4300164: Line014
+    4300166: Line015
+    4300168: Line016
+    4300170: Object060
+    4300172: Object061
+    4300174: Object062
+    4300176: Object063
+    4300178: Object064
+    4300180: Object065
+    4300182: Object066
+    4300184: Object067
+    4300186: Object068
+    4300188: Object069
+    4300190: Object070
+    4300192: Object071
+    4300194: Object072
+    4300196: Object073
+    4300198: Object074
+    4300200: Rectangle009
+    4300202: Rectangle010
+    4300204: Rectangle011
+    4300206: Object075
+    4300208: Object076
+    4300210: Object077
+    4300212: Object078
+    4300214: Shape014
+    4300216: Shape015
+    4300218: Line009.001
+    4300220: Cube
+    6400000: Box002
+    6400002: Box004
+    6400004: Box005
+    6400006: Box006
+    6400008: Box007
+    6400010: Box008
+    6400012: Box009
+    6400014: Box010
+    6400016: Box011
+    6400018: Box012
+    6400020: Box013
+    6400022: Box014
+    6400024: Box015
+    6400026: Box016
+    6400028: Box017
+    6400030: Box018
+    6400032: Box019
+    6400034: Capsule001
+    6400036: Capsule003
+    6400038: Cube
+    6400040: Cube.001
+    6400042: Cylinder001
+    6400044: Cylinder002
+    6400046: Line002
+    6400048: Line003
+    6400050: Line004
+    6400052: Line005
+    6400054: Line006
+    6400056: Line007
+    6400058: Line008
+    6400060: Line009.001
+    6400062: Line010
+    6400064: Line011
+    6400066: Line012
+    6400068: Line013
+    6400070: Line014
+    6400072: Line015
+    6400074: Line016
+    6400076: Object022
+    6400078: Object030
+    6400080: Object031
+    6400082: Object032
+    6400084: Object033
+    6400086: Object034
+    6400088: Object035
+    6400090: Object036
+    6400092: Object037
+    6400094: Object038
+    6400096: Object039
+    6400098: Object040
+    6400100: Object041
+    6400102: Object043
+    6400104: Object044
+    6400106: Object045
+    6400108: Object046
+    6400110: Object047
+    6400112: Object048
+    6400114: Object049
+    6400116: Object050
+    6400118: Object051
+    6400120: Object052
+    6400122: Object053
+    6400124: Object054
+    6400126: Object055
+    6400128: Object056
+    6400130: Object057
+    6400132: Object058
+    6400134: Object059
+    6400136: Object060
+    6400138: Object061
+    6400140: Object062
+    6400142: Object063
+    6400144: Object064
+    6400146: Object065
+    6400148: Object066
+    6400150: Object067
+    6400152: Object068
+    6400154: Object069
+    6400156: Object070
+    6400158: Object071
+    6400160: Object072
+    6400162: Object073
+    6400164: Object074
+    6400166: Object075
+    6400168: Object076
+    6400170: Object077
+    6400172: Object078
+    6400174: Rectangle001
+    6400176: Rectangle002
+    6400178: Rectangle003
+    6400180: Rectangle004
+    6400182: Rectangle005
+    6400184: Rectangle006
+    6400186: Rectangle007
+    6400188: Rectangle008
+    6400190: Rectangle009
+    6400192: Rectangle010
+    6400194: Rectangle011
+    6400196: Shape001_MeshPart0
+    6400198: Shape001_MeshPart1
+    6400200: Shape005_MeshPart0
+    6400202: Shape005_MeshPart1
+    6400204: Shape005_MeshPart2
+    6400206: Shape008
+    6400208: Shape012_MeshPart0
+    6400210: Shape012_MeshPart1
+    6400212: Shape013_MeshPart0
+    6400214: Shape013_MeshPart1
+    6400216: Shape013_MeshPart2
+    6400218: Shape014
+    6400220: Shape015
+    7400000: VRayCam001|VRayCam001|VRayCam001|VRayCam001|Take 001|BaseLayer|VRayCam001|
+    7400002: VRayCam001|VRayCam001|VRayCam001|VRayCam002|Take 001|BaseLayer|VRayCam001|
+    7400004: VRayCam001|VRayCam001|VRayCam001|VRayCam003|Take 001|BaseLayer|VRayCam001|
+    7400006: VRayCam001|VRayCam001|VRayCam001|VRayCam004|Take 001|BaseLayer|VRayCam001|
+    7400008: VRayCam001|VRayCam001|VRayCam001|VRayCam005|Take 001|BaseLayer|VRayCam001|
+    7400010: VRayCam001|VRayCam001|VRayCam001|VRaySun001|Take 001|BaseLayer|VRayCam001|
+    7400012: VRayCam001|VRayCam002|VRayCam002|VRayCam001|Take 001|BaseLayer|VRayCam002|
+    7400014: VRayCam001|VRayCam002|VRayCam002|VRayCam002|Take 001|BaseLayer|VRayCam002|
+    7400016: VRayCam001|VRayCam002|VRayCam002|VRayCam003|Take 001|BaseLayer|VRayCam002|
+    7400018: VRayCam001|VRayCam002|VRayCam002|VRayCam004|Take 001|BaseLayer|VRayCam002|
+    7400020: VRayCam001|VRayCam002|VRayCam002|VRayCam005|Take 001|BaseLayer|VRayCam002|
+    7400022: VRayCam001|VRayCam002|VRayCam002|VRaySun001|Take 001|BaseLayer|VRayCam002|
+    7400024: VRayCam001|VRayCam003|VRayCam003|VRayCam001|Take 001|BaseLayer|VRayCam003|
+    7400026: VRayCam001|VRayCam003|VRayCam003|VRayCam002|Take 001|BaseLayer|VRayCam003|
+    7400028: VRayCam001|VRayCam003|VRayCam003|VRayCam003|Take 001|BaseLayer|VRayCam003|
+    7400030: VRayCam001|VRayCam003|VRayCam003|VRayCam004|Take 001|BaseLayer|VRayCam003|
+    7400032: VRayCam001|VRayCam003|VRayCam003|VRayCam005|Take 001|BaseLayer|VRayCam003|
+    7400034: VRayCam001|VRayCam003|VRayCam003|VRaySun001|Take 001|BaseLayer|VRayCam003|
+    7400036: VRayCam001|VRayCam004|VRayCam004|VRayCam001|Take 001|BaseLayer|VRayCam004|
+    7400038: VRayCam001|VRayCam004|VRayCam004|VRayCam002|Take 001|BaseLayer|VRayCam004|
+    7400040: VRayCam001|VRayCam004|VRayCam004|VRayCam003|Take 001|BaseLayer|VRayCam004|
+    7400042: VRayCam001|VRayCam004|VRayCam004|VRayCam004|Take 001|BaseLayer|VRayCam004|
+    7400044: VRayCam001|VRayCam004|VRayCam004|VRayCam005|Take 001|BaseLayer|VRayCam004|
+    7400046: VRayCam001|VRayCam004|VRayCam004|VRaySun001|Take 001|BaseLayer|VRayCam004|
+    7400048: VRayCam001|VRayCam005|VRayCam005|VRayCam001|Take 001|BaseLayer|VRayCam005|
+    7400050: VRayCam001|VRayCam005|VRayCam005|VRayCam002|Take 001|BaseLayer|VRayCam005|
+    7400052: VRayCam001|VRayCam005|VRayCam005|VRayCam003|Take 001|BaseLayer|VRayCam005|
+    7400054: VRayCam001|VRayCam005|VRayCam005|VRayCam004|Take 001|BaseLayer|VRayCam005|
+    7400056: VRayCam001|VRayCam005|VRayCam005|VRayCam005|Take 001|BaseLayer|VRayCam005|
+    7400058: VRayCam001|VRayCam005|VRayCam005|VRaySun001|Take 001|BaseLayer|VRayCam005|
+    7400060: VRayCam001|VRaySun001|VRaySun001|VRayCam001|Take 001|BaseLayer|VRaySun001|
+    7400062: VRayCam001|VRaySun001|VRaySun001|VRayCam002|Take 001|BaseLayer|VRaySun001|
+    7400064: VRayCam001|VRaySun001|VRaySun001|VRayCam003|Take 001|BaseLayer|VRaySun001|
+    7400066: VRayCam001|VRaySun001|VRaySun001|VRayCam004|Take 001|BaseLayer|VRaySun001|
+    7400068: VRayCam001|VRaySun001|VRaySun001|VRayCam005|Take 001|BaseLayer|VRaySun001|
+    7400070: VRayCam001|VRaySun001|VRaySun001|VRaySun001|Take 001|BaseLayer|VRaySun001|
+    7400072: VRaySun001|VRayCam001|VRayCam001|VRayCam001|Take 001|BaseLayer|VRayCam001|
+    7400074: VRaySun001|VRayCam001|VRayCam001|VRayCam002|Take 001|BaseLayer|VRayCam001|
+    7400076: VRaySun001|VRayCam001|VRayCam001|VRayCam003|Take 001|BaseLayer|VRayCam001|
+    7400078: VRaySun001|VRayCam001|VRayCam001|VRayCam004|Take 001|BaseLayer|VRayCam001|
+    7400080: VRaySun001|VRayCam001|VRayCam001|VRayCam005|Take 001|BaseLayer|VRayCam001|
+    7400082: VRaySun001|VRayCam001|VRayCam001|VRaySun001|Take 001|BaseLayer|VRayCam001|
+    7400084: VRaySun001|VRayCam002|VRayCam002|VRayCam001|Take 001|BaseLayer|VRayCam002|
+    7400086: VRaySun001|VRayCam002|VRayCam002|VRayCam002|Take 001|BaseLayer|VRayCam002|
+    7400088: VRaySun001|VRayCam002|VRayCam002|VRayCam003|Take 001|BaseLayer|VRayCam002|
+    7400090: VRaySun001|VRayCam002|VRayCam002|VRayCam004|Take 001|BaseLayer|VRayCam002|
+    7400092: VRaySun001|VRayCam002|VRayCam002|VRayCam005|Take 001|BaseLayer|VRayCam002|
+    7400094: VRaySun001|VRayCam002|VRayCam002|VRaySun001|Take 001|BaseLayer|VRayCam002|
+    7400096: VRaySun001|VRayCam003|VRayCam003|VRayCam001|Take 001|BaseLayer|VRayCam003|
+    7400098: VRaySun001|VRayCam003|VRayCam003|VRayCam002|Take 001|BaseLayer|VRayCam003|
+    7400100: VRaySun001|VRayCam003|VRayCam003|VRayCam003|Take 001|BaseLayer|VRayCam003|
+    7400102: VRaySun001|VRayCam003|VRayCam003|VRayCam004|Take 001|BaseLayer|VRayCam003|
+    7400104: VRaySun001|VRayCam003|VRayCam003|VRayCam005|Take 001|BaseLayer|VRayCam003|
+    7400106: VRaySun001|VRayCam003|VRayCam003|VRaySun001|Take 001|BaseLayer|VRayCam003|
+    7400108: VRaySun001|VRayCam004|VRayCam004|VRayCam001|Take 001|BaseLayer|VRayCam004|
+    7400110: VRaySun001|VRayCam004|VRayCam004|VRayCam002|Take 001|BaseLayer|VRayCam004|
+    7400112: VRaySun001|VRayCam004|VRayCam004|VRayCam003|Take 001|BaseLayer|VRayCam004|
+    7400114: VRaySun001|VRayCam004|VRayCam004|VRayCam004|Take 001|BaseLayer|VRayCam004|
+    7400116: VRaySun001|VRayCam004|VRayCam004|VRayCam005|Take 001|BaseLayer|VRayCam004|
+    7400118: VRaySun001|VRayCam004|VRayCam004|VRaySun001|Take 001|BaseLayer|VRayCam004|
+    7400120: VRaySun001|VRayCam005|VRayCam005|VRayCam001|Take 001|BaseLayer|VRayCam005|
+    7400122: VRaySun001|VRayCam005|VRayCam005|VRayCam002|Take 001|BaseLayer|VRayCam005|
+    7400124: VRaySun001|VRayCam005|VRayCam005|VRayCam003|Take 001|BaseLayer|VRayCam005|
+    7400126: VRaySun001|VRayCam005|VRayCam005|VRayCam004|Take 001|BaseLayer|VRayCam005|
+    7400128: VRaySun001|VRayCam005|VRayCam005|VRayCam005|Take 001|BaseLayer|VRayCam005|
+    7400130: VRaySun001|VRayCam005|VRayCam005|VRaySun001|Take 001|BaseLayer|VRayCam005|
+    7400132: VRaySun001|VRaySun001|VRaySun001|VRayCam001|Take 001|BaseLayer|VRaySun001|
+    7400134: VRaySun001|VRaySun001|VRaySun001|VRayCam002|Take 001|BaseLayer|VRaySun001|
+    7400136: VRaySun001|VRaySun001|VRaySun001|VRayCam003|Take 001|BaseLayer|VRaySun001|
+    7400138: VRaySun001|VRaySun001|VRaySun001|VRayCam004|Take 001|BaseLayer|VRaySun001|
+    7400140: VRaySun001|VRaySun001|VRaySun001|VRayCam005|Take 001|BaseLayer|VRaySun001|
+    7400142: VRaySun001|VRaySun001|VRaySun001|VRaySun001|Take 001|BaseLayer|VRaySun001|
+    7400144: VRayCam002|VRayCam001|VRayCam001|VRayCam001|Take 001|BaseLayer|VRayCam001|
+    7400146: VRayCam002|VRayCam001|VRayCam001|VRayCam002|Take 001|BaseLayer|VRayCam001|
+    7400148: VRayCam002|VRayCam001|VRayCam001|VRayCam003|Take 001|BaseLayer|VRayCam001|
+    7400150: VRayCam002|VRayCam001|VRayCam001|VRayCam004|Take 001|BaseLayer|VRayCam001|
+    7400152: VRayCam002|VRayCam001|VRayCam001|VRayCam005|Take 001|BaseLayer|VRayCam001|
+    7400154: VRayCam002|VRayCam001|VRayCam001|VRaySun001|Take 001|BaseLayer|VRayCam001|
+    7400156: VRayCam002|VRayCam002|VRayCam002|VRayCam001|Take 001|BaseLayer|VRayCam002|
+    7400158: VRayCam002|VRayCam002|VRayCam002|VRayCam002|Take 001|BaseLayer|VRayCam002|
+    7400160: VRayCam002|VRayCam002|VRayCam002|VRayCam003|Take 001|BaseLayer|VRayCam002|
+    7400162: VRayCam002|VRayCam002|VRayCam002|VRayCam004|Take 001|BaseLayer|VRayCam002|
+    7400164: VRayCam002|VRayCam002|VRayCam002|VRayCam005|Take 001|BaseLayer|VRayCam002|
+    7400166: VRayCam002|VRayCam002|VRayCam002|VRaySun001|Take 001|BaseLayer|VRayCam002|
+    7400168: VRayCam002|VRayCam003|VRayCam003|VRayCam001|Take 001|BaseLayer|VRayCam003|
+    7400170: VRayCam002|VRayCam003|VRayCam003|VRayCam002|Take 001|BaseLayer|VRayCam003|
+    7400172: VRayCam002|VRayCam003|VRayCam003|VRayCam003|Take 001|BaseLayer|VRayCam003|
+    7400174: VRayCam002|VRayCam003|VRayCam003|VRayCam004|Take 001|BaseLayer|VRayCam003|
+    7400176: VRayCam002|VRayCam003|VRayCam003|VRayCam005|Take 001|BaseLayer|VRayCam003|
+    7400178: VRayCam002|VRayCam003|VRayCam003|VRaySun001|Take 001|BaseLayer|VRayCam003|
+    7400180: VRayCam002|VRayCam004|VRayCam004|VRayCam001|Take 001|BaseLayer|VRayCam004|
+    7400182: VRayCam002|VRayCam004|VRayCam004|VRayCam002|Take 001|BaseLayer|VRayCam004|
+    7400184: VRayCam002|VRayCam004|VRayCam004|VRayCam003|Take 001|BaseLayer|VRayCam004|
+    7400186: VRayCam002|VRayCam004|VRayCam004|VRayCam004|Take 001|BaseLayer|VRayCam004|
+    7400188: VRayCam002|VRayCam004|VRayCam004|VRayCam005|Take 001|BaseLayer|VRayCam004|
+    7400190: VRayCam002|VRayCam004|VRayCam004|VRaySun001|Take 001|BaseLayer|VRayCam004|
+    7400192: VRayCam002|VRayCam005|VRayCam005|VRayCam001|Take 001|BaseLayer|VRayCam005|
+    7400194: VRayCam002|VRayCam005|VRayCam005|VRayCam002|Take 001|BaseLayer|VRayCam005|
+    7400196: VRayCam002|VRayCam005|VRayCam005|VRayCam003|Take 001|BaseLayer|VRayCam005|
+    7400198: VRayCam002|VRayCam005|VRayCam005|VRayCam004|Take 001|BaseLayer|VRayCam005|
+    7400200: VRayCam002|VRayCam005|VRayCam005|VRayCam005|Take 001|BaseLayer|VRayCam005|
+    7400202: VRayCam002|VRayCam005|VRayCam005|VRaySun001|Take 001|BaseLayer|VRayCam005|
+    7400204: VRayCam002|VRaySun001|VRaySun001|VRayCam001|Take 001|BaseLayer|VRaySun001|
+    7400206: VRayCam002|VRaySun001|VRaySun001|VRayCam002|Take 001|BaseLayer|VRaySun001|
+    7400208: VRayCam002|VRaySun001|VRaySun001|VRayCam003|Take 001|BaseLayer|VRaySun001|
+    7400210: VRayCam002|VRaySun001|VRaySun001|VRayCam004|Take 001|BaseLayer|VRaySun001|
+    7400212: VRayCam002|VRaySun001|VRaySun001|VRayCam005|Take 001|BaseLayer|VRaySun001|
+    7400214: VRayCam002|VRaySun001|VRaySun001|VRaySun001|Take 001|BaseLayer|VRaySun001|
+    7400216: VRayCam003|VRayCam001|VRayCam001|VRayCam001|Take 001|BaseLayer|VRayCam001|
+    7400218: VRayCam003|VRayCam001|VRayCam001|VRayCam002|Take 001|BaseLayer|VRayCam001|
+    7400220: VRayCam003|VRayCam001|VRayCam001|VRayCam003|Take 001|BaseLayer|VRayCam001|
+    7400222: VRayCam003|VRayCam001|VRayCam001|VRayCam004|Take 001|BaseLayer|VRayCam001|
+    7400224: VRayCam003|VRayCam001|VRayCam001|VRayCam005|Take 001|BaseLayer|VRayCam001|
+    7400226: VRayCam003|VRayCam001|VRayCam001|VRaySun001|Take 001|BaseLayer|VRayCam001|
+    7400228: VRayCam003|VRayCam002|VRayCam002|VRayCam001|Take 001|BaseLayer|VRayCam002|
+    7400230: VRayCam003|VRayCam002|VRayCam002|VRayCam002|Take 001|BaseLayer|VRayCam002|
+    7400232: VRayCam003|VRayCam002|VRayCam002|VRayCam003|Take 001|BaseLayer|VRayCam002|
+    7400234: VRayCam003|VRayCam002|VRayCam002|VRayCam004|Take 001|BaseLayer|VRayCam002|
+    7400236: VRayCam003|VRayCam002|VRayCam002|VRayCam005|Take 001|BaseLayer|VRayCam002|
+    7400238: VRayCam003|VRayCam002|VRayCam002|VRaySun001|Take 001|BaseLayer|VRayCam002|
+    7400240: VRayCam003|VRayCam003|VRayCam003|VRayCam001|Take 001|BaseLayer|VRayCam003|
+    7400242: VRayCam003|VRayCam003|VRayCam003|VRayCam002|Take 001|BaseLayer|VRayCam003|
+    7400244: VRayCam003|VRayCam003|VRayCam003|VRayCam003|Take 001|BaseLayer|VRayCam003|
+    7400246: VRayCam003|VRayCam003|VRayCam003|VRayCam004|Take 001|BaseLayer|VRayCam003|
+    7400248: VRayCam003|VRayCam003|VRayCam003|VRayCam005|Take 001|BaseLayer|VRayCam003|
+    7400250: VRayCam003|VRayCam003|VRayCam003|VRaySun001|Take 001|BaseLayer|VRayCam003|
+    7400252: VRayCam003|VRayCam004|VRayCam004|VRayCam001|Take 001|BaseLayer|VRayCam004|
+    7400254: VRayCam003|VRayCam004|VRayCam004|VRayCam002|Take 001|BaseLayer|VRayCam004|
+    7400256: VRayCam003|VRayCam004|VRayCam004|VRayCam003|Take 001|BaseLayer|VRayCam004|
+    7400258: VRayCam003|VRayCam004|VRayCam004|VRayCam004|Take 001|BaseLayer|VRayCam004|
+    7400260: VRayCam003|VRayCam004|VRayCam004|VRayCam005|Take 001|BaseLayer|VRayCam004|
+    7400262: VRayCam003|VRayCam004|VRayCam004|VRaySun001|Take 001|BaseLayer|VRayCam004|
+    7400264: VRayCam003|VRayCam005|VRayCam005|VRayCam001|Take 001|BaseLayer|VRayCam005|
+    7400266: VRayCam003|VRayCam005|VRayCam005|VRayCam002|Take 001|BaseLayer|VRayCam005|
+    7400268: VRayCam003|VRayCam005|VRayCam005|VRayCam003|Take 001|BaseLayer|VRayCam005|
+    7400270: VRayCam003|VRayCam005|VRayCam005|VRayCam004|Take 001|BaseLayer|VRayCam005|
+    7400272: VRayCam003|VRayCam005|VRayCam005|VRayCam005|Take 001|BaseLayer|VRayCam005|
+    7400274: VRayCam003|VRayCam005|VRayCam005|VRaySun001|Take 001|BaseLayer|VRayCam005|
+    7400276: VRayCam003|VRaySun001|VRaySun001|VRayCam001|Take 001|BaseLayer|VRaySun001|
+    7400278: VRayCam003|VRaySun001|VRaySun001|VRayCam002|Take 001|BaseLayer|VRaySun001|
+    7400280: VRayCam003|VRaySun001|VRaySun001|VRayCam003|Take 001|BaseLayer|VRaySun001|
+    7400282: VRayCam003|VRaySun001|VRaySun001|VRayCam004|Take 001|BaseLayer|VRaySun001|
+    7400284: VRayCam003|VRaySun001|VRaySun001|VRayCam005|Take 001|BaseLayer|VRaySun001|
+    7400286: VRayCam003|VRaySun001|VRaySun001|VRaySun001|Take 001|BaseLayer|VRaySun001|
+    7400288: VRayCam004|VRayCam001|VRayCam001|VRayCam001|Take 001|BaseLayer|VRayCam001|
+    7400290: VRayCam004|VRayCam001|VRayCam001|VRayCam002|Take 001|BaseLayer|VRayCam001|
+    7400292: VRayCam004|VRayCam001|VRayCam001|VRayCam003|Take 001|BaseLayer|VRayCam001|
+    7400294: VRayCam004|VRayCam001|VRayCam001|VRayCam004|Take 001|BaseLayer|VRayCam001|
+    7400296: VRayCam004|VRayCam001|VRayCam001|VRayCam005|Take 001|BaseLayer|VRayCam001|
+    7400298: VRayCam004|VRayCam001|VRayCam001|VRaySun001|Take 001|BaseLayer|VRayCam001|
+    7400300: VRayCam004|VRayCam002|VRayCam002|VRayCam001|Take 001|BaseLayer|VRayCam002|
+    7400302: VRayCam004|VRayCam002|VRayCam002|VRayCam002|Take 001|BaseLayer|VRayCam002|
+    7400304: VRayCam004|VRayCam002|VRayCam002|VRayCam003|Take 001|BaseLayer|VRayCam002|
+    7400306: VRayCam004|VRayCam002|VRayCam002|VRayCam004|Take 001|BaseLayer|VRayCam002|
+    7400308: VRayCam004|VRayCam002|VRayCam002|VRayCam005|Take 001|BaseLayer|VRayCam002|
+    7400310: VRayCam004|VRayCam002|VRayCam002|VRaySun001|Take 001|BaseLayer|VRayCam002|
+    7400312: VRayCam004|VRayCam003|VRayCam003|VRayCam001|Take 001|BaseLayer|VRayCam003|
+    7400314: VRayCam004|VRayCam003|VRayCam003|VRayCam002|Take 001|BaseLayer|VRayCam003|
+    7400316: VRayCam004|VRayCam003|VRayCam003|VRayCam003|Take 001|BaseLayer|VRayCam003|
+    7400318: VRayCam004|VRayCam003|VRayCam003|VRayCam004|Take 001|BaseLayer|VRayCam003|
+    7400320: VRayCam004|VRayCam003|VRayCam003|VRayCam005|Take 001|BaseLayer|VRayCam003|
+    7400322: VRayCam004|VRayCam003|VRayCam003|VRaySun001|Take 001|BaseLayer|VRayCam003|
+    7400324: VRayCam004|VRayCam004|VRayCam004|VRayCam001|Take 001|BaseLayer|VRayCam004|
+    7400326: VRayCam004|VRayCam004|VRayCam004|VRayCam002|Take 001|BaseLayer|VRayCam004|
+    7400328: VRayCam004|VRayCam004|VRayCam004|VRayCam003|Take 001|BaseLayer|VRayCam004|
+    7400330: VRayCam004|VRayCam004|VRayCam004|VRayCam004|Take 001|BaseLayer|VRayCam004|
+    7400332: VRayCam004|VRayCam004|VRayCam004|VRayCam005|Take 001|BaseLayer|VRayCam004|
+    7400334: VRayCam004|VRayCam004|VRayCam004|VRaySun001|Take 001|BaseLayer|VRayCam004|
+    7400336: VRayCam004|VRayCam005|VRayCam005|VRayCam001|Take 001|BaseLayer|VRayCam005|
+    7400338: VRayCam004|VRayCam005|VRayCam005|VRayCam002|Take 001|BaseLayer|VRayCam005|
+    7400340: VRayCam004|VRayCam005|VRayCam005|VRayCam003|Take 001|BaseLayer|VRayCam005|
+    7400342: VRayCam004|VRayCam005|VRayCam005|VRayCam004|Take 001|BaseLayer|VRayCam005|
+    7400344: VRayCam004|VRayCam005|VRayCam005|VRayCam005|Take 001|BaseLayer|VRayCam005|
+    7400346: VRayCam004|VRayCam005|VRayCam005|VRaySun001|Take 001|BaseLayer|VRayCam005|
+    7400348: VRayCam004|VRaySun001|VRaySun001|VRayCam001|Take 001|BaseLayer|VRaySun001|
+    7400350: VRayCam004|VRaySun001|VRaySun001|VRayCam002|Take 001|BaseLayer|VRaySun001|
+    7400352: VRayCam004|VRaySun001|VRaySun001|VRayCam003|Take 001|BaseLayer|VRaySun001|
+    7400354: VRayCam004|VRaySun001|VRaySun001|VRayCam004|Take 001|BaseLayer|VRaySun001|
+    7400356: VRayCam004|VRaySun001|VRaySun001|VRayCam005|Take 001|BaseLayer|VRaySun001|
+    7400358: VRayCam004|VRaySun001|VRaySun001|VRaySun001|Take 001|BaseLayer|VRaySun001|
+    7400360: VRayCam005|VRayCam001|VRayCam001|VRayCam001|Take 001|BaseLayer|VRayCam001|
+    7400362: VRayCam005|VRayCam001|VRayCam001|VRayCam002|Take 001|BaseLayer|VRayCam001|
+    7400364: VRayCam005|VRayCam001|VRayCam001|VRayCam003|Take 001|BaseLayer|VRayCam001|
+    7400366: VRayCam005|VRayCam001|VRayCam001|VRayCam004|Take 001|BaseLayer|VRayCam001|
+    7400368: VRayCam005|VRayCam001|VRayCam001|VRayCam005|Take 001|BaseLayer|VRayCam001|
+    7400370: VRayCam005|VRayCam001|VRayCam001|VRaySun001|Take 001|BaseLayer|VRayCam001|
+    7400372: VRayCam005|VRayCam002|VRayCam002|VRayCam001|Take 001|BaseLayer|VRayCam002|
+    7400374: VRayCam005|VRayCam002|VRayCam002|VRayCam002|Take 001|BaseLayer|VRayCam002|
+    7400376: VRayCam005|VRayCam002|VRayCam002|VRayCam003|Take 001|BaseLayer|VRayCam002|
+    7400378: VRayCam005|VRayCam002|VRayCam002|VRayCam004|Take 001|BaseLayer|VRayCam002|
+    7400380: VRayCam005|VRayCam002|VRayCam002|VRayCam005|Take 001|BaseLayer|VRayCam002|
+    7400382: VRayCam005|VRayCam002|VRayCam002|VRaySun001|Take 001|BaseLayer|VRayCam002|
+    7400384: VRayCam005|VRayCam003|VRayCam003|VRayCam001|Take 001|BaseLayer|VRayCam003|
+    7400386: VRayCam005|VRayCam003|VRayCam003|VRayCam002|Take 001|BaseLayer|VRayCam003|
+    7400388: VRayCam005|VRayCam003|VRayCam003|VRayCam003|Take 001|BaseLayer|VRayCam003|
+    7400390: VRayCam005|VRayCam003|VRayCam003|VRayCam004|Take 001|BaseLayer|VRayCam003|
+    7400392: VRayCam005|VRayCam003|VRayCam003|VRayCam005|Take 001|BaseLayer|VRayCam003|
+    7400394: VRayCam005|VRayCam003|VRayCam003|VRaySun001|Take 001|BaseLayer|VRayCam003|
+    7400396: VRayCam005|VRayCam004|VRayCam004|VRayCam001|Take 001|BaseLayer|VRayCam004|
+    7400398: VRayCam005|VRayCam004|VRayCam004|VRayCam002|Take 001|BaseLayer|VRayCam004|
+    7400400: VRayCam005|VRayCam004|VRayCam004|VRayCam003|Take 001|BaseLayer|VRayCam004|
+    7400402: VRayCam005|VRayCam004|VRayCam004|VRayCam004|Take 001|BaseLayer|VRayCam004|
+    7400404: VRayCam005|VRayCam004|VRayCam004|VRayCam005|Take 001|BaseLayer|VRayCam004|
+    7400406: VRayCam005|VRayCam004|VRayCam004|VRaySun001|Take 001|BaseLayer|VRayCam004|
+    7400408: VRayCam005|VRayCam005|VRayCam005|VRayCam001|Take 001|BaseLayer|VRayCam005|
+    7400410: VRayCam005|VRayCam005|VRayCam005|VRayCam002|Take 001|BaseLayer|VRayCam005|
+    7400412: VRayCam005|VRayCam005|VRayCam005|VRayCam003|Take 001|BaseLayer|VRayCam005|
+    7400414: VRayCam005|VRayCam005|VRayCam005|VRayCam004|Take 001|BaseLayer|VRayCam005|
+    7400416: VRayCam005|VRayCam005|VRayCam005|VRayCam005|Take 001|BaseLayer|VRayCam005|
+    7400418: VRayCam005|VRayCam005|VRayCam005|VRaySun001|Take 001|BaseLayer|VRayCam005|
+    7400420: VRayCam005|VRaySun001|VRaySun001|VRayCam001|Take 001|BaseLayer|VRaySun001|
+    7400422: VRayCam005|VRaySun001|VRaySun001|VRayCam002|Take 001|BaseLayer|VRaySun001|
+    7400424: VRayCam005|VRaySun001|VRaySun001|VRayCam003|Take 001|BaseLayer|VRaySun001|
+    7400426: VRayCam005|VRaySun001|VRaySun001|VRayCam004|Take 001|BaseLayer|VRaySun001|
+    7400428: VRayCam005|VRaySun001|VRaySun001|VRayCam005|Take 001|BaseLayer|VRaySun001|
+    7400430: VRayCam005|VRaySun001|VRaySun001|VRaySun001|Take 001|BaseLayer|VRaySun001|
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
