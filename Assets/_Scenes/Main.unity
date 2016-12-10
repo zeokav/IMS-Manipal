@@ -1099,6 +1099,19 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 64000012169088650, guid: 643ea1eaac1a48e4a9158c6bc403f3c6,
+        type: 2}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014284087420, guid: 643ea1eaac1a48e4a9158c6bc403f3c6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.077
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014284087420, guid: 643ea1eaac1a48e4a9158c6bc403f3c6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.127
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 643ea1eaac1a48e4a9158c6bc403f3c6, type: 2}
   m_IsPrefabParent: 0
@@ -4224,12 +4237,12 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: 47cc97cb8f85a3c489850a4333d95998, type: 2}
-  m_TreeDistance: 2000
+  m_TreeDistance: 33
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
+  m_DetailObjectDistance: 250
+  m_DetailObjectDensity: 0.25
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
