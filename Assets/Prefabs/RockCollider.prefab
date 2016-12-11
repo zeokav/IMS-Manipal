@@ -9,45 +9,45 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000010210935566}
+  m_RootGameObject: {fileID: 1000010456341340}
   m_IsPrefabParent: 1
---- !u!1 &1000010210935566
+--- !u!1 &1000010456341340
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4000011489279296}
-  - 33: {fileID: 33000010305969034}
-  - 23: {fileID: 23000010557835482}
-  - 64: {fileID: 64000011284845936}
+  - 4: {fileID: 4000013045441106}
+  - 33: {fileID: 33000010245322696}
+  - 135: {fileID: 135000011339724912}
+  - 23: {fileID: 23000011304005948}
   m_Layer: 0
-  m_Name: rock4A
+  m_Name: RockCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000011489279296
+--- !u!4 &4000013045441106
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010210935566}
-  m_LocalRotation: {x: 0.5992008, y: -0.34297004, z: 0.2682392, w: -0.67184645}
-  m_LocalPosition: {x: 1156.5208, y: 46.76071, z: 1035.2002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: -38.395, y: -273.314, z: -80.114006}
+  m_GameObject: {fileID: 1000010456341340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1128.0778, y: 45.305965, z: 1057.8387}
+  m_LocalScale: {x: 6.436253, y: 6.436253, z: 6.436253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!23 &23000010557835482
+--- !u!23 &23000011304005948
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010210935566}
+  m_GameObject: {fileID: 1000010456341340}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -55,13 +55,13 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3af6ae234a659b642a0f8c6eb14e5e1c, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedWireframeHidden: 0
@@ -71,22 +71,22 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &33000010305969034
+--- !u!33 &33000010245322696
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010210935566}
-  m_Mesh: {fileID: 4300000, guid: 3e772a67b3ee4f648914cbd287aa8c0e, type: 3}
---- !u!64 &64000011284845936
-MeshCollider:
+  m_GameObject: {fileID: 1000010456341340}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &135000011339724912
+SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010210935566}
+  m_GameObject: {fileID: 1000010456341340}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 1
-  m_Mesh: {fileID: 4300000, guid: 3e772a67b3ee4f648914cbd287aa8c0e, type: 3}
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
