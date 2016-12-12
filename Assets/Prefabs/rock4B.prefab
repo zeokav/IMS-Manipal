@@ -21,6 +21,7 @@ GameObject:
   - 4: {fileID: 4000012053252844}
   - 33: {fileID: 33000011555429324}
   - 23: {fileID: 23000011409082784}
+  - 64: {fileID: 64000013231080978}
   m_Layer: 0
   m_Name: rock4B
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012975566036}
   m_LocalRotation: {x: 0.5992008, y: -0.34297004, z: 0.2682392, w: -0.67184645}
-  m_LocalPosition: {x: 2.83, y: 2.8, z: 3.176}
+  m_LocalPosition: {x: 1116.9248, y: 42.59922, z: 1029.8069}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: -38.395, y: -273.314, z: -80.114006}
   m_Children: []
@@ -76,4 +77,16 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012975566036}
+  m_Mesh: {fileID: 4300000, guid: 3e772a67b3ee4f648914cbd287aa8c0e, type: 3}
+--- !u!64 &64000013231080978
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012975566036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3e772a67b3ee4f648914cbd287aa8c0e, type: 3}
