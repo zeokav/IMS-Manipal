@@ -180,7 +180,6 @@
     <Compile Include="Assets\Scripts\DropMe.cs" />
     <Compile Include="Assets\Scripts\FlyThroughController.cs" />
     <Compile Include="Assets\Scripts\Leap Actions\DoorDetector.cs" />
-    <Compile Include="Assets\Scripts\Leap Actions\DoorTouchAction.cs" />
     <Compile Include="Assets\Scripts\LoadSceneAtIndex.cs" />
     <Compile Include="Assets\Scripts\MouseControl.cs" />
     <Compile Include="Assets\Scripts\PanelManager.cs" />
