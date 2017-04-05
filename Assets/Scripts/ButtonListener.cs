@@ -13,7 +13,10 @@ public class ButtonListener : MonoBehaviour {
 	void Update () {
 	    if(Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene(0);              //load the main menu
+            SceneManager.LoadScene("VRMainMenu");
+           // SceneManager.LoadScene(0);              //load the main menu
         }
 	}
+
+   
 }
