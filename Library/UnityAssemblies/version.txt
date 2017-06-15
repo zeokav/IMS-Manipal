@@ -1,4 +1,4 @@
-5.4.1f1:2.8.0.0
+5.4.1f1:3.1.0.0
 StandaloneWindows64
 D:/game/unity 5.4.1/Editor/Data/Managed/UnityEngine.dll
 D:/game/unity 5.4.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
@@ -13,4 +13,4 @@ D:/game/unity 5.4.1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEdi
 D:/game/unity 5.4.1/Editor/Data/Managed/UnityEditor.Graphs.dll
 D:/game/unity 5.4.1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 D:/game/unity 5.4.1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2015/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll
+C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll

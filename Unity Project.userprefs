@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Unity Project.Plugins.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\VRSampleScenes\Scripts\Utils\InputWarnings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DoorOpenClose.cs">
     <Files>
       <File FileName="Assets\VRSampleScenes\Scripts\Utils\InputWarnings.cs" Line="58" Column="1" />
+      <File FileName="Assets\DoorOpenClose.cs" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
